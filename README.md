@@ -1,4 +1,4 @@
-# VORA Icon System (`@/components/custom/icon`)
+# VORA Icon System (`@/components/icon`)
 
 Centralized, type-safe icon management system based on [`react-icons`](https://react-icons.github.io/react-icons/).
 

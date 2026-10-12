@@ -7,7 +7,7 @@ Centralized, type-safe icon management system based on [`react-icons`](https://r
 ## 📁 Directory Structure
 
 ```text
-src/components/custom/icon/
+src/components/icon/
 ├── Icon.jsx          # Main Icon component & icon registry (iconMap)
 ├── IconGallery.jsx   # Interactive visual explorer UI (/check-icons)
 ├── check-icons.js    # Static validator script (CLI: pnpm check-icons)
@@ -18,10 +18,10 @@ src/components/custom/icon/
 
 ## 🚀 Quick Usage
 
-Import the `Icon` component from `@/components/custom/icon/Icon`:
+Import the `Icon` component from `@/components/icon/Icon`:
 
 ```jsx
-import Icon from "@/components/custom/icon/Icon";
+import Icon from "@/components/icon/Icon";
 
 export default function MyComponent() {
   return (
@@ -65,7 +65,7 @@ export default function MyComponent() {
 Jab bhi naya icon project me chahiye ho:
 
 ### Step 1: `react-icons` se icon import karein
-File: `src/components/custom/icon/Icon.jsx`
+File: `src/components/icon/Icon.jsx`
 
 ```javascript
 import { MdOutlineFingerprint } from "react-icons/md";
